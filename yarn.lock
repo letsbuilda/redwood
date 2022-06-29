@@ -1966,6 +1966,11 @@
   resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.25.0.tgz#14aa117cacaed907205af8c239d459c246da2a67"
   integrity sha512-+Mqx5HX47/5vm+vtiTXffjNzPbCzypGI3HvpZM+OPhIrikv7mn5ijJgDMHoSIWkAN4cxCkVluVr8PzuB8NWGOQ==
 
+"@redwoodjs/auth@^0.26.2":
+  version "0.26.2"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.26.2.tgz#ad22bae41ce6b37babe08a20ca14770025be7140"
+  integrity sha512-A7VRhz0FoxZYR85vnKaohl2wK4UuOVr7CMMhhkcVs1CRFZg61AGbARFWItggtkzg9NffTZPYs5Vd1K2OC3hCBw==
+
 "@redwoodjs/cli@^0.25.0":
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.25.0.tgz#93ab89a417fd420e9798106324c279857ae3d388"
@@ -2176,6 +2181,18 @@
   integrity sha512-5IXZh7KHhmoisvpGqjacdC0QGpZLNzCRcVSvfB8Y6lSPqkFmSwinDCSuEVV9uq6GxQxh/K8pMHp/WFayAjB7AQ==
   dependencies:
     "@apollo/client" "^3.2.5"
+    "@types/react" "16.9.53"
+    core-js "3.6.5"
+    graphql "^15.3.0"
+    proptypes "^1.1.0"
+
+"@redwoodjs/web@^0.26.2":
+  version "0.26.2"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.26.2.tgz#86e792f1f154eeac9d6ccc9b0414e6980693c25f"
+  integrity sha512-TyyPwEpLFSvHmUT43264n62ovBAPHbMiOXwHCGZKpVsrlbDNvffWiqnswS4pqw6eGS3BnJcz2zI8T86fPz5Rag==
+  dependencies:
+    "@apollo/client" "^3.2.5"
+    "@redwoodjs/auth" "^0.26.2"
     "@types/react" "16.9.53"
     core-js "3.6.5"
     graphql "^15.3.0"
