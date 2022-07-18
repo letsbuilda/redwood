@@ -2100,15 +2100,15 @@
   resolved "https://registry.yarnpkg.com/@redwoodjs/eslint-plugin-redwood/-/eslint-plugin-redwood-0.25.0.tgz#22c6f64eb3af7546317dee98bf71fc1e37e1ea22"
   integrity sha512-k46ecqsTYHzMSbiPh+foloPfHo6jkrmZFaS2RYcUg/ehlTe5cjkog8LsMA7EFZjEDnkVr52TEKMMwgNqvdyQnQ==
 
-"@redwoodjs/forms@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/forms/-/forms-0.25.0.tgz#b69d22f46a92013387386de5c75cce9b5b5dcc88"
-  integrity sha512-FZEFTtlZgXdNXkrdutz4CjuDFvCSdUQ3eNjynSz+ZTLA3tx2UEtN8ftbuDfxY3BMGyAN1F1BeKBh5pDGtVKGAg==
+"@redwoodjs/forms@^0.43.0":
+  version "0.43.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/forms/-/forms-0.43.0.tgz#0d254c1474a6d6db4196c23a19657976e1ace481"
+  integrity sha512-QzEdJg8Rbc9PahaUVhlxAvPa0kemH58R7Rwbq14imWWnrxEQcL6gZCDkjb64V47SxfqL0wCKVdSSNonCbG50Ng==
   dependencies:
-    "@types/pascalcase" "^1.0.0"
-    core-js "3.6.5"
+    "@types/pascalcase" "1.0.1"
+    core-js "3.20.3"
     pascalcase "1.0.0"
-    react-hook-form "^6.9.5"
+    react-hook-form "7.25.1"
 
 "@redwoodjs/internal@^0.25.0":
   version "0.25.0"
@@ -2996,10 +2996,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/pascalcase@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/pascalcase/-/pascalcase-1.0.0.tgz#7f655b653e2ed207e282e13b6d2f4cfe5e93c5b1"
-  integrity sha512-GUljFjs6pnZuxxmStKR1uDWIcGQSVdmUedFfreyJGU0owXW096kvYxf+6T/e1I6r3N8gNrqk3PETHqZwlR2xVg==
+"@types/pascalcase@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@types/pascalcase/-/pascalcase-1.0.1.tgz#2466c1e23713c1681320e49449643e3f16c84f33"
+  integrity sha512-JYPox1hbKw66Sv9HtvTp0r5jJkaz6k+V8XjEnZUb7B+4ffIoS+3sjiAtwkX6IMO68UQtQWe9QcAjugn9VR4GJg==
 
 "@types/prettier@^2.0.0":
   version "2.2.0"
@@ -5616,15 +5616,15 @@ core-js-pure@^3.0.0, core-js-pure@^3.0.1:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.8.3.tgz#10e9e3b2592ecaede4283e8f3ad7020811587c02"
   integrity sha512-V5qQZVAr9K0xu7jXg1M7qTEwuxUgqr7dUOezGaNa7i+Xn9oXAU/d1fzqD9ObuwpVQOaorO5s70ckyi1woP9lVA==
 
+core-js@3.20.3, core-js@^3.0.1, core-js@^3.0.4, core-js@^3.2.1:
+  version "3.20.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.20.3.tgz#c710d0a676e684522f3db4ee84e5e18a9d11d69a"
+  integrity sha512-vVl8j8ph6tRS3B8qir40H7yw7voy17xL0piAjlbBUsH7WIfzoedL/ZOr1OV9FyZQLWXsayOJyV4tnRyXR85/ag==
+
 core-js@3.6.5:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
-
-core-js@^3.0.1, core-js@^3.0.4, core-js@^3.2.1:
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.8.3.tgz#c21906e1f14f3689f93abcc6e26883550dd92dd0"
-  integrity sha512-KPYXeVZYemC2TkNEkX/01I+7yd+nX3KddKwZ1Ww7SKWdI2wQprSgLmrTddT8nw92AjEklTsPBoSdQBhbI1bQ6Q==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -12042,10 +12042,10 @@ react-helmet-async@^1.0.2:
     react-fast-compare "^3.2.0"
     shallowequal "^1.1.0"
 
-react-hook-form@^6.9.5:
-  version "6.15.1"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-6.15.1.tgz#57d887ec4dac5a6c0099902171aa39cc893f7bca"
-  integrity sha512-bL0LQuQ3OlM3JYfbacKtBPLOHhmgYz8Lj6ivMrvu2M6e1wnt4sbGRtPEPYCc/8z3WDbjrMwfAfLX92OsB65pFA==
+react-hook-form@7.25.1:
+  version "7.25.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.25.1.tgz#7ec58505078760134b1c6efdfe07b4b5c4bdb8e3"
+  integrity sha512-AVE/kFtOQ6GEC5TBDNzZrVO8k4QRMi5RNhUWeBq6Koc9V/luBrP1xybWByl4n1yLFL8/2H3p0VM7wp3CW7t8JQ==
 
 react-hotkeys@2.0.0:
   version "2.0.0"
